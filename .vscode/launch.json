@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "operadoresRelacionais",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.operadores.operadoresRelacionais",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TiposVariaveis",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.TiposVariaveis.TiposVariaveis",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "operadorTernario",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.operadores.operadorTernario",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "operadores",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.operadores.operadores",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        }
+    ]
+}
