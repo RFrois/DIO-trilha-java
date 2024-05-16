@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "metodos",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.metodos.metodos",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
             "name": "operadoresLogicos",
             "request": "launch",
             "mainClass": "edu.dioSantander.operadores.operadoresLogicos",
