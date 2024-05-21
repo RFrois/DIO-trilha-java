@@ -21,6 +21,7 @@ public class metodos {
         System.out.println("Canal atual: " + smartTv.canal);
 
         smartTv.statusTv();
+        
     }
 
 }
