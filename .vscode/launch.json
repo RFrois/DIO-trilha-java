@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TratamentoExecoes",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.EstruturaRepeticao.TratamentoExecoes",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "Teste",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.EstruturaRepeticao.Teste",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "CondicaoWhile",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.EstruturaRepeticao.CondicaoWhile",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "BreakContinue",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.EstruturaRepeticao.BreakContinue",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "forParaArrays",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.EstruturaRepeticao.forParaArrays",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "EstruturaFor",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.EstruturaRepeticao.EstruturaFor",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "CondicionalSwitchCase",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.EstruturaCondicionais.CondicionalSwitchCase",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "CondicaoTernatio",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.EstruturaCondicionais.CondicaoTernatio",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "EstruturaCondComposta",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.EstruturaCondicionais.EstruturaCondComposta",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
+            "name": "EstruturaCondicionais",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.EstruturaCondicionais.EstruturaCondicionais",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
             "name": "metodos",
             "request": "launch",
             "mainClass": "edu.dioSantander.metodos.metodos",
