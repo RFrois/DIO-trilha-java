@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "JAVA-BASICO/src",
-        "JAVA-BASICO"
+        "JAVA-BASICO",
+        "DesafioControleFluxo/ControleFluxo/src"
     ]
 }

@@ -11,7 +11,7 @@ public static void main(String[] args) {
 
 
     for (String aluno : alunos) {
-        System.out.println("Alunos simples: " + aluno);
+        System.out.println("Alunos simples : " + aluno);
     }
 }
 }
