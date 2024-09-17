@@ -1,34 +1,34 @@
 package edu.dioSantander.EstruturaCondicionais;
 
+import java.util.Scanner;
+
 public class EstruturaCondicionais {
 
     public static void main(String[] args) {
-        double saldo = 100.0;
-        double valorSolicitado = 17.0;
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Seu salado é: " + saldo);
+        try {
+            String numeroConta = scanner.nextLine();
 
-        if (valorSolicitado < saldo)
-            saldo = saldo - valorSolicitado;
+            // TODO: Chamar o método que veritica se o número da conta é valido
+            verificarNumeroConta(numeroConta);
+            // Caso nenhuma exceção seja lançada, imprime a mensagem de sucesso.
+            System.out.println("Numero de conta valido.");
+        } catch (IllegalArgumentException e) {
+            // TODO: Informar que o número de conta é inválido e exibir a mensagem de erro
+            System.out.println("Erro: " + e.getMessage());
+        } finally {
+            // Fechar o scanner para evitar vazamentos de recursos
+            scanner.close();
+        }
+    }
 
-        System.out.println(saldo);
-        System.out.println("estrutura simples");
-
-        //controle de fluxo simples 
-
-        System.out.println("\n\n");
-
-        if (valorSolicitado < saldo)
-            saldo = saldo - valorSolicitado;
-
-        else 
-            System.out.println("Saldo insuficiente");
-
-        System.out.println(saldo);
-        System.out.println("estrutura Composta");
-
-        //controle de fluxo composto com else 
-
+    private static void verificarNumeroConta(String numeroConta) {
+        if (numeroConta.length() != 8) {
+          throw new IllegalArgumentException("Numero de conta invalido. Digite exatamente 8 digitos.");
+            // TODO: Lançar uma IllegalArgumentException com a seguinte mensagem:
+            // "Numero de conta invalido. Digite exatamente 8 digitos."
+        }
     }
 
 }

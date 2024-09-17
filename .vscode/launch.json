@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "desafio",
+            "request": "launch",
+            "mainClass": "edu.dioSantander.EstruturaRepeticao.desafio",
+            "projectName": "DIO-trilha-java_8f02ff19"
+        },
+        {
+            "type": "java",
             "name": "DesafioControleFluxo",
             "request": "launch",
             "mainClass": "DesafioControleFluxo",
