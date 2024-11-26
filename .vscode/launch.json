@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ModificadoresClasse",
+            "request": "launch",
+            "mainClass": "PrincipalClass.ModificadoresClasse.ModificadoresClasse",
+            "projectName": "Projeto-Eclipse"
+        },
+        {
+            "type": "java",
             "name": "desafio",
             "request": "launch",
             "mainClass": "edu.dioSantander.EstruturaRepeticao.desafio",

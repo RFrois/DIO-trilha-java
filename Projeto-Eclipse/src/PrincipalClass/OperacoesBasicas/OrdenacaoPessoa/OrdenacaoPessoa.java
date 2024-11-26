@@ -27,5 +27,6 @@ public class OrdenacaoPessoa {
 		Collections.sort(pessoaPorAltura, new CompratorPorAltura());
 		return pessoaPorAltura;
 	}
+	
 
 }
