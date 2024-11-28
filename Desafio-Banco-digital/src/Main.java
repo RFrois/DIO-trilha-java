@@ -17,6 +17,13 @@ public class Main {
 		poupanca.imprimirExtrato();
 		
 		cc.imprimirInfosComuns();
+		
+		Banco rfrois = new Banco();
+		rfrois.setNome("rfrois");
+		rfrois.setEstado("São Paulo");
+		Agencia novaAgencia = new Agencia(rfrois);
+		novaAgencia.AdicionarAgencia(rfrois);
+		novaAgencia.ImprimirAgencia3();
 
 	}
 
