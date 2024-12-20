@@ -1,7 +1,9 @@
 package Principal;
 
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.Set;
 
 public class Dev {
@@ -10,17 +12,36 @@ public class Dev {
 	private Set<Conteudo> conteudoInscritos = new LinkedHashSet<>();
 	private Set<Conteudo> conteudoConcluidos = new LinkedHashSet<>();
 	
+	
+	
+	
 	public void inscreverBootcamp(Bootcamp bootcamp) {
 		this.conteudoInscritos.addAll(bootcamp.getConteudos());
+		bootcamp.getDevsInscritos().add(this);
 	}
 	
 	public void progredir() {
-		
+		Optional<Conteudo> conteudo = this.conteudoInscritos.stream().findFirst();
+		if(conteudo.isPresent()) {
+			this.conteudoConcluidos.add(conteudo.get());
+			this.conteudoInscritos.remove(conteudo.get());
+		}else {
+			System.err.println("Nada por aqui");
+		}
 	}
 	
-	public void calcularTottalXp() {
-		
+	public double calcularTotalXp() {
+		Iterator<Conteudo> iterator = this.conteudoConcluidos.iterator();
+        double soma = 0;
+        while(iterator.hasNext()){
+            double next = iterator.next().calcularXp();
+            soma += next;
+        }
+        return soma;
 	}
+	
+	
+	
 
 	public String getNome() {
 		return nome;
