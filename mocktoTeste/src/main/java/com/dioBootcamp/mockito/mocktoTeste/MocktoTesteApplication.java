@@ -1,5 +1,6 @@
 package com.dioBootcamp.mockito.mocktoTeste;
 
+import org.example.Cliente;
 import org.example.Conta;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,6 +20,12 @@ public class MocktoTesteApplication {
         conta.setSaldo(conta.getSaldo() + 20.0);
 
 		System.out.println(conta.getSaldo());
+
+		Cliente cliente = new Cliente();
+
+		cliente.setIdade(35);
+		cliente.setNome("Rafael");
+		System.out.println(cliente.getIdade());
 	}
 
 
