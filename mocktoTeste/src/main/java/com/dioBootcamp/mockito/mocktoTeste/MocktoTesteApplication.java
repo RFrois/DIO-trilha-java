@@ -2,11 +2,15 @@ package com.dioBootcamp.mockito.mocktoTeste;
 
 import org.example.Cliente;
 import org.example.Conta;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class MocktoTesteApplication {
+
+	public static Logger log = LoggerFactory.getLogger(MocktoTesteApplication.class);
 
 	public static void main(String[] args) {
 		SpringApplication.run(MocktoTesteApplication.class, args);
@@ -26,6 +30,9 @@ public class MocktoTesteApplication {
 		cliente.setIdade(35);
 		cliente.setNome("Rafael");
 		System.out.println(cliente.getIdade());
+
+		log.info("Realizado execução");
+		log.error("Deu ruim");
 	}
 
 
