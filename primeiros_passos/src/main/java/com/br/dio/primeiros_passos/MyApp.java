@@ -1,8 +1,11 @@
 package com.br.dio.primeiros_passos;
 
+import com.br.dio.primeiros_passos.TesteBean.ConversonJson;
+import com.br.dio.primeiros_passos.TesteBean.ViaCepResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @Slf4j
@@ -17,6 +20,17 @@ public class MyApp implements CommandLineRunner {
         System.out.println("Resultado é: " + calculadora.somar(5,6));
 
         log.info("Executou com sucesso");
-
+        log.info("Recebeu o Json");
     }
+
+    @Bean
+    public CommandLineRunner run(ConversonJson converter) throws Exception {
+        return args -> {
+            String json = "{\"cep\": \"01001-001\", \"logradouro\": \"Voith\", \"localidade\": \"nossa casa\"}";
+            ViaCepResponse response = converter.converter(json);
+            System.out.println("Dados do CEP: " + response);
+        };
+    }
+
+
 }

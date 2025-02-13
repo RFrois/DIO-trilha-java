@@ -1,11 +1,5 @@
-2025-02-08T03:06:50.715-03:00  INFO 25024 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Starting MocktoTesteApplication using Java 18.0.2 with PID 25024 (C:\Users\rafae\Documents\Projetos Java\DIO-trilha-java\mocktoTeste\target\classes started by rafae in C:\Users\rafae\Documents\Projetos Java\DIO-trilha-java\mocktoTeste)
-2025-02-08T03:06:50.720-03:00  INFO 25024 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-02-08T03:06:51.892-03:00  INFO 25024 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Started MocktoTesteApplication in 2.271 seconds (process running for 3.022)
-2025-02-08T03:06:51.905-03:00  INFO 25024 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Realizado execução
-2025-02-08T03:06:51.906-03:00 ERROR 25024 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Deu ruim
-2025-02-08T03:07:33.160-03:00 ERROR 26132 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Deu ruim
-2025-02-08T03:08:03.274-03:00  INFO 2748 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Starting MocktoTesteApplication using Java 18.0.2 with PID 2748 (C:\Users\rafae\Documents\Projetos Java\DIO-trilha-java\mocktoTeste\target\classes started by rafae in C:\Users\rafae\Documents\Projetos Java\DIO-trilha-java\mocktoTeste)
-2025-02-08T03:08:03.279-03:00  INFO 2748 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : No active profile set, falling back to 1 default profile: "default"
-2025-02-08T03:08:04.441-03:00  INFO 2748 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Started MocktoTesteApplication in 2.192 seconds (process running for 2.952)
-2025-02-08T03:08:04.447-03:00  INFO 2748 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Realizado execução
-2025-02-08T03:08:04.448-03:00 ERROR 2748 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Deu ruim
+2025-02-12T19:05:44.517-03:00  INFO 26740 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Starting MocktoTesteApplication using Java 18.0.2 with PID 26740 (C:\Users\rafae\Documents\Projetos Java\DIO-trilha-java\mocktoTeste\target\classes started by rafae in C:\Users\rafae\Documents\Projetos Java\DIO-trilha-java\mocktoTeste)
+2025-02-12T19:05:44.532-03:00  INFO 26740 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T19:05:46.125-03:00  INFO 26740 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Started MocktoTesteApplication in 3.018 seconds (process running for 3.947)
+2025-02-12T19:05:46.139-03:00  INFO 26740 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Realizado execução
+2025-02-12T19:05:46.140-03:00 ERROR 26740 --- [mocktoTeste] [main] c.d.m.m.MocktoTesteApplication           : Deu ruim

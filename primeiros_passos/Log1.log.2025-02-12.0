@@ -1,0 +1,4 @@
+2025-02-12T18:31:36.906-03:00  INFO 8944 --- [primeiros_passos] [main] c.b.d.p.PrimeirosPassosApplication       : Starting PrimeirosPassosApplication using Java 18.0.2 with PID 8944 (C:\Users\rafae\Documents\Projetos Java\DIO-trilha-java\primeiros_passos\target\classes started by rafae in C:\Users\rafae\Documents\Projetos Java\DIO-trilha-java\primeiros_passos)
+2025-02-12T18:31:36.924-03:00  INFO 8944 --- [primeiros_passos] [main] c.b.d.p.PrimeirosPassosApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-12T18:31:38.623-03:00  INFO 8944 --- [primeiros_passos] [main] c.b.d.p.PrimeirosPassosApplication       : Started PrimeirosPassosApplication in 3.233 seconds (process running for 4.684)
+2025-02-12T18:31:38.640-03:00  INFO 8944 --- [primeiros_passos] [main] com.br.dio.primeiros_passos.MyApp        : Executou com sucesso
