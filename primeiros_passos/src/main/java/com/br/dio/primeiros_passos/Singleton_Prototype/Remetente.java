@@ -7,4 +7,6 @@ public class Remetente {
 
     private String nome;
     private String email;
+
+    // Não tem os Gets e Sets por estar usando lombok para gerar
 }

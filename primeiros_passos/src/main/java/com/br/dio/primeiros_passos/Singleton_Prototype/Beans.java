@@ -15,4 +15,6 @@ public class Beans {
         remetente.setNome("Rafael Frois");
         return remetente;
     }
+
+    // na classe de Configeration adicionado o Scope("Prototype"), o padrão é singleton, caso não declare nada, fica no padrão
 }

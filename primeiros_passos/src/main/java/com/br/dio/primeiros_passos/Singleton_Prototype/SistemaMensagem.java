@@ -24,4 +24,6 @@ public class SistemaMensagem {
         System.out.println("Bem-vindo ao time tech");
         log.info("mensagem enviada");
     }
+
+    // Foi criado 2 instâncias da classe Remetente,
 }
