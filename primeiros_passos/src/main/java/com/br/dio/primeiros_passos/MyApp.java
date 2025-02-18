@@ -40,6 +40,7 @@ public class MyApp implements CommandLineRunner {
             sistema.enviarMensagemBoasVindas();
             sistema.enviarConfimacaoCadastro();
         };
+        // o nome run2 um método, com a classe CommandLineRinner se precisar de criar mais de 1 @Bean com ele, tem que ser de nome diferente
     }
 
 
