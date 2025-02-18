@@ -1,5 +1,6 @@
 package com.br.dio.primeiros_passos;
 
+import com.br.dio.primeiros_passos.Singleton_Prototype.SistemaMensagem;
 import com.br.dio.primeiros_passos.TesteBean.ConversonJson;
 import com.br.dio.primeiros_passos.TesteBean.ViaCepResponse;
 import lombok.extern.slf4j.Slf4j;
@@ -29,6 +30,15 @@ public class MyApp implements CommandLineRunner {
             String json = "{\"cep\": \"01001-001\", \"logradouro\": \"Voith\", \"localidade\": \"nossa casa\"}";
             ViaCepResponse response = converter.converter(json);
             System.out.println("Dados do CEP: " + response);
+        };
+    }
+
+    @Bean
+    public CommandLineRunner run2(SistemaMensagem sistema) throws Exception {
+        return args -> {
+            sistema.enviarConfimacaoCadastro();
+            sistema.enviarMensagemBoasVindas();
+            sistema.enviarConfimacaoCadastro();
         };
     }
 
