@@ -14,10 +14,12 @@ public class SistemaMensagem {
     private Remetente techTeam;
 @Value("${mensagemBoasVindas}")
 private String mensagem;
+@Autowired
+private Mensagens msg;
 
     public void enviarConfimacaoCadastro(){
         System.out.println(noreplay);
-        System.out.println("Seu cadastro foi aprovado");
+        System.out.println(msg.getCadastroAprovado());
         log.info("Cadastro aprovado");
     }
 
@@ -29,5 +31,5 @@ private String mensagem;
     }
 
     // Foi criado 2 instâncias da classe Remetente,
-    // Criado um variável no Application.properties para validar o conhecimento ddp properties value sendo declarado no @Velue 
+    // Criado um variável no Application.properties para validar o conhecimento ddp properties value sendo declarado no @Velue
 }
