@@ -14,7 +14,7 @@ public class StartApp implements CommandLineRunner {
     public void run(String... args) throws Exception {
         UserTeste user = new UserTeste();
         user.setNome("Rafael");
-        user.setApelido("rfrois");
+        user.setApelido("rfrois1");
         user.setSenha("123mudar");
 
         repository.save(user);

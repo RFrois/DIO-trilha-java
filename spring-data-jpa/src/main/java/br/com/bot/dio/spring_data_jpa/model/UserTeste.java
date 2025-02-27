@@ -14,7 +14,7 @@ public class UserTeste {
     private Integer id;
     @Column(length = 50, nullable = false)
     private String nome;
-    @Column(length = 20, nullable = false)
+    @Column(length = 20, nullable = false, unique = true)
     private String apelido;
     @Column(length = 10, nullable = false)
     private String senha;
